@@ -1,0 +1,95 @@
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    margin-top: 50px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+
+
+    border-radius: 0 5px 5px 0;
+}
+#mySidenav img{
+  image-resolution: 20dpi;
+}
+
+#mySidenav a:hover {
+    left: 0;
+    height: 600px;
+    background-color:black;
+    position: absolute;
+    color:white;
+}
+
+#about {
+    top: 20px;
+    background-color: indigo;
+    color:indigo;
+}
+
+#blog {
+    top: 80px;
+    background-color: darkblue;
+    color:darkblue;
+}
+
+#progress {
+    top: 140px;
+    background-color: indigo;
+    color:indigo;
+}
+
+#contact {
+    top: 200px;
+    color:darkblue;
+    background-color: darkblue;
+}
+body{
+  background-image:url("../img/background3.jpg");
+  color: darkbrown;
+}
+.card{
+    background-image:url("../img/background3.jpg");
+}
+.footer {
+  background: #061D25;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+.footer hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: grey;
+}
+.card hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: black;
+}
+.card p{
+  font-size: 18px;
+}
