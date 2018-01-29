@@ -7,11 +7,14 @@
     <meta name="keywords" content="HTML,CSS">
     <meta name="author" content="Nirjhar Roy">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>
+      Portfollio
+    </title>
     <style>
 
 </style>
 </head>
+  <link rel="shortcut icon" href="favicon.ico" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
   <link rel="stylesheet" type="text/css" href="css/style.min.css">
@@ -30,13 +33,13 @@
                       <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
+                      <a  class="nav-link " data-toggle="modal" data-target="#myModal">About</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Services</a>
+                      <a  class="nav-link " data-toggle="modal" data-target="#myProgress">Progress</a>
                   </li class="nav-item">
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                    <a  class="nav-link " href="contact.html">Contact</a>
                   </li>
               </ul>
             </div>
@@ -62,7 +65,7 @@
   <div class="card col-md-8" >
     <h1 style="text-align:center " class="bg-dark text-info" id="Profile"> Welcome To My Profile</h1>
     <br><br>
-    <h1> About Me</h1>
+    <h1 id="About"> About Me</h1>
     <hr>
     <div class="card-body">
       <p>Hello I am,Nirjhar Roy ,Associate Software Engineer ,a CS Graduate(2013-2017) from NIT Agartala.
@@ -82,71 +85,76 @@
   </div>
 <!--################End of Card Sections#########################-->
   </div>
+
 <!--#################SideNavBar##################################-->
     <br><br><br>
       <div id="mySidenav" class="sidenav sidenav-sticky-top">
 
 
-        <a href="#" id="about">About</a>
-        <a href="#" id="blog">GitHub</a>
+        
+        <a href="https://github.com/MaxRayNic/" id="blog">GitHub</a>
         <a href="#Progress" id="progress">Progress Bar</a>
-        <a href="#Contact" id="contact">Contact</a>
+        <a href="contact.html" id="contact">Contact</a>
       </div>
 <!--#################Progress Bar##################################-->
-<h1 id="Educational Qualification">Educational Qualification</h1>
+
 <hr>
-<div class="container">
+<h1 id="Educational Qualification">Educational Qualification</h1>
+
   <h3>Computer Science and Engineering,National Institute Of Technology,Agartala</h3>
     <div class="progress">
-      <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:83.5%">8.35/10</div>
+      <div class="progress-bar bg-primary " style="width:83.5%">8.35/10</div>
     </div>
   <h2></h2>
-</div>
-<div class="container">
+
+
   <h3>AISSCE,Bhavan's Tripura VidyaMandir</h3>
     <div class="progress">
-      <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:82.8%">82.8%</div>
+      <div class="progress-bar bg-primary " style="width:82.8%">82.8%</div>
     </div>
-</div>
 
-<div class="container">
+
+
   <h3>AISSE,Bhavan's Tripura VidyaMandir</h3>
     <div class="progress">
-      <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:92%">9.2/10</div>
+      <div class="progress-bar bg-primary " style="width:92%">9.2/10</div>
     </div>
-</div>
+
+<hr style="border-width:5px border-color:black">
 <h1 id="Progress">Skills in Progress</h1>
-<div class="container">
+<hr>
+
   <h2>Java</h2>
     <div class="progress">
-      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:80%">80%</div>
+      <div class="progress-bar bg-success  " style="width:80%">80%</div>
     </div>
-</div>
-<div class="container">
+
+
   <h2>HTML</h2>
     <div class="progress">
-      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%">70%</div>
+      <div class="progress-bar bg-success  " style="width:70%">70%</div>
+    </div>
+
+
+
+  <h2>CSS</h2>
+    <div class="progress">
+      <div class="progress-bar bg-success  " style="width:75%">75%</div>
+    </div>
+
+
+  <h2>JSP</h2>
+    <div class="progress">
+      <div class="progress-bar bg-warning  " style="width:35%">35%</div>
+    </div>
+
+
+  <h2>JavaScript</h2>
+    <div class="progress">
+      <div class="progress-bar bg-danger " style="width:5%">5%</div>
     </div>
 </div>
 
-<div class="container">
-  <h2>CSS</h2>
-    <div class="progress">
-      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:75%">75%</div>
-    </div>
-</div>
-<div class="container">
-  <h2>JavaScript</h2>
-    <div class="progress">
-      <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:5%">5%</div>
-    </div>
-</div>
-<div class="container">
-  <h2>JSP</h2>
-    <div class="progress">
-      <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:35%">35%</div>
-    </div>
-</div>
 <!---##############################################JavaScript Query###################################-->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -169,7 +177,130 @@
 
   </div><hr><br>
 
+
   <p class="text-center text-secondary">©Practice At Stackroute 2018. All rights reserved.</p>
 </footer>
+<!--############################Modal Section###################-->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">About Me</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        </div>
+        <div class="modal-body">  <div class="card-body">
+      <p>Hello I am,Nirjhar Roy ,Associate Software Engineer ,a CS Graduate(2013-2017) from NIT Agartala.
+       <h2>Areas of Interest</h2>
+       <hr>
+      <p>Programming ,Analytics and Software Engineering.</p>
+       <h2>Hobbies</h2>
+       <hr>
+      <p>Watching Movies,TV Series,Solving Mathematical Problems. </p>
+       <h2>Professional Skills</h2>
+       <hr>
+      <p>Java,C,C++ ,HTML,CSS.</p>
+       <h2>What I Like in Computer Science?</h2>
+      <hr>
+      <p>Data Structures,Algorithm,Database Management ,Discreet Mathematics,Software Design.</p>
+    </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myProgress" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Skills in Progress</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+          </div>
+          <div class="modal-body">  <div class="card-body">
+
+
+            <div class="container">
+              <h2>Java</h2>
+                <div class="progress">
+                  <div class="progress-bar bg-success  " style="width:80%">80%</div>
+                </div>
+
+
+              <h2>HTML</h2>
+                <div class="progress">
+                  <div class="progress-bar bg-success  " style="width:70%">70%</div>
+                </div>
+
+
+
+              <h2>CSS</h2>
+                <div class="progress">
+                  <div class="progress-bar bg-success  " style="width:75%">75%</div>
+                </div>
+
+
+              <h2>JSP</h2>
+                <div class="progress">
+                  <div class="progress-bar bg-warning  " style="width:35%">35%</div>
+                </div>
+
+
+              <h2>JavaScript</h2>
+                <div class="progress">
+                  <div class="progress-bar bg-danger " style="width:5%">5%</div>
+                </div>
+            </div>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="modal fade" id="myContacts" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-light">
+              <h2 class="modal-title text-p4 " >Contact Me</h2>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+            </div>
+            <div class="modal-body text-dark bg-light">  <div class="card-body">
+
+
+
+              <div class="container text-center">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-skype"></i></a>
+
+              </div>
+
+
+
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
   </body>
   </html>
